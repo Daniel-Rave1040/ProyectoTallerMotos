@@ -223,14 +223,11 @@ select,
 textarea {
   font-family: inherit;
   font-size: 15px;
-  color: var(--text-h);
-
-  background: 1f2937;
+  color: #f9fafb;
+  background: #1f2937;
   border: 1px solid var(--border);
   border-radius: 8px;
-
   padding: 10px 12px;
-
   outline: none;
   transition:
     border-color 0.15s ease,
@@ -239,7 +236,7 @@ textarea {
 
 select,
 select option {
-  color: #111827;
+  color: white;
 }
 
 input:focus,
@@ -251,7 +248,7 @@ textarea:focus {
 
 input::placeholder,
 textarea::placeholder {
-  color: #94a3b8;
+  color: #f9fafb;
 }
 
 textarea {
