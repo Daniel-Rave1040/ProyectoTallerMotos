@@ -237,6 +237,11 @@ textarea {
     box-shadow 0.15s ease;
 }
 
+select,
+select option {
+  color: #111827;
+}
+
 input:focus,
 select:focus,
 textarea:focus {
