@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-    baseURL: "http://localhost:3000/api", // Reemplaza con la URL de tu API
+    baseURL: "https://proyectotallermotos.onrender.com/api",
 });
 
 // Interceptor de solicitudes para adjuntar automáticamente el token JWT
